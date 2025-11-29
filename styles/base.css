@@ -1,0 +1,68 @@
+html {
+    text-align: center;
+}
+
+body {
+    max-height: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+#chess-board div {
+    display: flex;
+    aspect-ratio: 1 / 1;
+}
+
+.dark {
+    background-color: rgb(147, 80, 29);
+}
+
+.white {
+    background-color: #f3fcfbfb;
+}
+
+#chess-board {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    aspect-ratio: 1 / 1;
+    width: min(320px, 500px);
+    margin: 0 auto;
+
+    border: solid 10px #804f4fdc;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.piece {
+    position: absolute;
+    width: calc(10% + 5px);
+    /* display: inline-block; */
+    /* transform: translate(0px, 0px); */
+    transition: transform 0.3s ease-out; /* Hace el movimiento suave */
+
+}
+
+.piece img {
+    display: flex;
+    width: 100%;
+    margin-left: calc(5%);
+    margin-top: 5px;
+}
+
+/* .piece img {
+    display: flex;
+    justify-self: center;
+} */
+
+/* position: absolute; */
+/* transform: translate(0px, 0px); */
+/* transition: transform 0.3s ease-out;  */
+/* Hace el movimiento suave */
+
+
+footer {
+    margin-top: 30px;
+}
