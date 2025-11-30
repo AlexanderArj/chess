@@ -1,37 +1,290 @@
 [
-    { "category": "king",   "color": "white", "notation": "K", "pId": 100, "image": "../images/chess-king-white.svg",   "file": 4, "rank": 7 },
-    { "category": "queen",  "color": "white", "notation": "Q", "pId": 101, "image": "../images/chess-queen-white.svg",  "file": 3, "rank": 7 },
-    { "category": "rook",   "color": "white", "notation": "R", "pId": 102, "image": "../images/chess-rook-white.svg",   "file": 0, "rank": 7 },
-    { "category": "rook",   "color": "white", "notation": "R", "pId": 103, "image": "../images/chess-rook-white.svg",   "file": 7, "rank": 7 },
-    { "category": "knight", "color": "white", "notation": "N", "pId": 104, "image": "../images/chess-knight-white.svg", "file": 1, "rank": 7 },
-    { "category": "knight", "color": "white", "notation": "N", "pId": 105, "image": "../images/chess-knight-white.svg", "file": 6, "rank": 7 },
-    { "category": "bishop", "color": "white", "notation": "B", "pId": 106, "image": "../images/chess-bishop-white.svg", "file": 2, "rank": 7 },
-    { "category": "bishop", "color": "white", "notation": "B", "pId": 107, "image": "../images/chess-bishop-white.svg", "file": 5, "rank": 7 },
-    
-    { "category": "pawn",   "color": "white", "notation": "P", "pId": 108, "image": "../images/chess-pawn-white.svg",   "file": 0, "rank": 6 },
-    { "category": "pawn",   "color": "white", "notation": "P", "pId": 109, "image": "../images/chess-pawn-white.svg",   "file": 1, "rank": 6 },
-    { "category": "pawn",   "color": "white", "notation": "P", "pId": 110, "image": "../images/chess-pawn-white.svg",   "file": 2, "rank": 6 },
-    { "category": "pawn",   "color": "white", "notation": "P", "pId": 111, "image": "../images/chess-pawn-white.svg",   "file": 3, "rank": 6 },
-    { "category": "pawn",   "color": "white", "notation": "P", "pId": 112, "image": "../images/chess-pawn-white.svg",   "file": 4, "rank": 6 },
-    { "category": "pawn",   "color": "white", "notation": "P", "pId": 113, "image": "../images/chess-pawn-white.svg",   "file": 5, "rank": 6 },
-    { "category": "pawn",   "color": "white", "notation": "P", "pId": 114, "image": "../images/chess-pawn-white.svg",   "file": 6, "rank": 6 },
-    { "category": "pawn",   "color": "white", "notation": "P", "pId": 115, "image": "../images/chess-pawn-white.svg",   "file": 7, "rank": 6 },
-
-    { "category": "king",   "color": "black", "notation": "K", "pId": 200, "image": "../images/chess-king-black.svg",   "file": 4, "rank": 0 },
-    { "category": "queen",  "color": "black", "notation": "Q", "pId": 201, "image": "../images/chess-queen-black.svg",  "file": 3, "rank": 0 },
-    { "category": "rook",   "color": "black", "notation": "R", "pId": 202, "image": "../images/chess-rook-black.svg",   "file": 0, "rank": 0 },
-    { "category": "rook",   "color": "black", "notation": "R", "pId": 203, "image": "../images/chess-rook-black.svg",   "file": 7, "rank": 0 },
-    { "category": "knight", "color": "black", "notation": "N", "pId": 204, "image": "../images/chess-knight-black.svg", "file": 1, "rank": 0 },
-    { "category": "knight", "color": "black", "notation": "N", "pId": 205, "image": "../images/chess-knight-black.svg", "file": 6, "rank": 0 },
-    { "category": "bishop", "color": "black", "notation": "B", "pId": 206, "image": "../images/chess-bishop-black.svg", "file": 2, "rank": 0 },
-    { "category": "bishop", "color": "black", "notation": "B", "pId": 207, "image": "../images/chess-bishop-black.svg", "file": 5, "rank": 0 },
-
-    { "category": "pawn",   "color": "black", "notation": "P", "pId": 208, "image": "../images/chess-pawn-black.svg",   "file": 0, "rank": 1 },
-    { "category": "pawn",   "color": "black", "notation": "P", "pId": 209, "image": "../images/chess-pawn-black.svg",   "file": 1, "rank": 1 },
-    { "category": "pawn",   "color": "black", "notation": "P", "pId": 210, "image": "../images/chess-pawn-black.svg",   "file": 2, "rank": 1 },
-    { "category": "pawn",   "color": "black", "notation": "P", "pId": 211, "image": "../images/chess-pawn-black.svg",   "file": 3, "rank": 1 },
-    { "category": "pawn",   "color": "black", "notation": "P", "pId": 212, "image": "../images/chess-pawn-black.svg",   "file": 4, "rank": 1 },
-    { "category": "pawn",   "color": "black", "notation": "P", "pId": 213, "image": "../images/chess-pawn-black.svg",   "file": 5, "rank": 1 },
-    { "category": "pawn",   "color": "black", "notation": "P", "pId": 214, "image": "../images/chess-pawn-black.svg",   "file": 6, "rank": 1 },
-    { "category": "pawn",   "color": "black", "notation": "P", "pId": 215, "image": "../images/chess-pawn-black.svg",   "file": 7, "rank": 1 }
+    {
+        "category": "king",
+        "color": "white",
+        "notation": "K",
+        "pId": 100,
+        "image": "../images/chess-king-white.svg",
+        "file": 4,
+        "rank": 7
+    },
+    {
+        "category": "queen",
+        "color": "white",
+        "notation": "Q",
+        "pId": 101,
+        "image": "../images/chess-queen-white.svg",
+        "file": 3,
+        "rank": 7
+    },
+    {
+        "category": "rook",
+        "color": "white",
+        "notation": "R",
+        "pId": 102,
+        "image": "../images/chess-rook-white.svg",
+        "file": 0,
+        "rank": 7
+    },
+    {
+        "category": "rook",
+        "color": "white",
+        "notation": "R",
+        "pId": 103,
+        "image": "../images/chess-rook-white.svg",
+        "file": 7,
+        "rank": 7
+    },
+    {
+        "category": "knight",
+        "color": "white",
+        "notation": "N",
+        "pId": 104,
+        "image": "../images/chess-knight-white.svg",
+        "file": 1,
+        "rank": 7
+    },
+    {
+        "category": "knight",
+        "color": "white",
+        "notation": "N",
+        "pId": 105,
+        "image": "../images/chess-knight-white.svg",
+        "file": 6,
+        "rank": 7
+    },
+    {
+        "category": "bishop",
+        "color": "white",
+        "notation": "B",
+        "pId": 106,
+        "image": "../images/chess-bishop-white.svg",
+        "file": 2,
+        "rank": 7
+    },
+    {
+        "category": "bishop",
+        "color": "white",
+        "notation": "B",
+        "pId": 107,
+        "image": "../images/chess-bishop-white.svg",
+        "file": 5,
+        "rank": 7
+    },
+    {
+        "category": "pawn",
+        "color": "white",
+        "notation": "P",
+        "pId": 108,
+        "image": "../images/chess-pawn-white.svg",
+        "file": 0,
+        "rank": 6
+    },
+    {
+        "category": "pawn",
+        "color": "white",
+        "notation": "P",
+        "pId": 109,
+        "image": "../images/chess-pawn-white.svg",
+        "file": 1,
+        "rank": 6
+    },
+    {
+        "category": "pawn",
+        "color": "white",
+        "notation": "P",
+        "pId": 110,
+        "image": "../images/chess-pawn-white.svg",
+        "file": 2,
+        "rank": 6
+    },
+    {
+        "category": "pawn",
+        "color": "white",
+        "notation": "P",
+        "pId": 111,
+        "image": "../images/chess-pawn-white.svg",
+        "file": 3,
+        "rank": 6
+    },
+    {
+        "category": "pawn",
+        "color": "white",
+        "notation": "P",
+        "pId": 112,
+        "image": "../images/chess-pawn-white.svg",
+        "file": 4,
+        "rank": 6
+    },
+    {
+        "category": "pawn",
+        "color": "white",
+        "notation": "P",
+        "pId": 113,
+        "image": "../images/chess-pawn-white.svg",
+        "file": 5,
+        "rank": 6
+    },
+    {
+        "category": "pawn",
+        "color": "white",
+        "notation": "P",
+        "pId": 114,
+        "image": "../images/chess-pawn-white.svg",
+        "file": 6,
+        "rank": 6
+    },
+    {
+        "category": "pawn",
+        "color": "white",
+        "notation": "P",
+        "pId": 115,
+        "image": "../images/chess-pawn-white.svg",
+        "file": 7,
+        "rank": 6
+    },
+    {
+        "category": "king",
+        "color": "black",
+        "notation": "K",
+        "pId": 200,
+        "image": "../images/chess-king-black.svg",
+        "file": 4,
+        "rank": 0
+    },
+    {
+        "category": "queen",
+        "color": "black",
+        "notation": "Q",
+        "pId": 201,
+        "image": "../images/chess-queen-black.svg",
+        "file": 3,
+        "rank": 0
+    },
+    {
+        "category": "rook",
+        "color": "black",
+        "notation": "R",
+        "pId": 202,
+        "image": "../images/chess-rook-black.svg",
+        "file": 0,
+        "rank": 0
+    },
+    {
+        "category": "rook",
+        "color": "black",
+        "notation": "R",
+        "pId": 203,
+        "image": "../images/chess-rook-black.svg",
+        "file": 7,
+        "rank": 0
+    },
+    {
+        "category": "knight",
+        "color": "black",
+        "notation": "N",
+        "pId": 204,
+        "image": "../images/chess-knight-black.svg",
+        "file": 1,
+        "rank": 0
+    },
+    {
+        "category": "knight",
+        "color": "black",
+        "notation": "N",
+        "pId": 205,
+        "image": "../images/chess-knight-black.svg",
+        "file": 6,
+        "rank": 0
+    },
+    {
+        "category": "bishop",
+        "color": "black",
+        "notation": "B",
+        "pId": 206,
+        "image": "../images/chess-bishop-black.svg",
+        "file": 2,
+        "rank": 0
+    },
+    {
+        "category": "bishop",
+        "color": "black",
+        "notation": "B",
+        "pId": 207,
+        "image": "../images/chess-bishop-black.svg",
+        "file": 5,
+        "rank": 0
+    },
+    {
+        "category": "pawn",
+        "color": "black",
+        "notation": "P",
+        "pId": 208,
+        "image": "../images/chess-pawn-black.svg",
+        "file": 0,
+        "rank": 1
+    },
+    {
+        "category": "pawn",
+        "color": "black",
+        "notation": "P",
+        "pId": 209,
+        "image": "../images/chess-pawn-black.svg",
+        "file": 1,
+        "rank": 1
+    },
+    {
+        "category": "pawn",
+        "color": "black",
+        "notation": "P",
+        "pId": 210,
+        "image": "../images/chess-pawn-black.svg",
+        "file": 2,
+        "rank": 1
+    },
+    {
+        "category": "pawn",
+        "color": "black",
+        "notation": "P",
+        "pId": 211,
+        "image": "../images/chess-pawn-black.svg",
+        "file": 3,
+        "rank": 1
+    },
+    {
+        "category": "pawn",
+        "color": "black",
+        "notation": "P",
+        "pId": 212,
+        "image": "../images/chess-pawn-black.svg",
+        "file": 4,
+        "rank": 1
+    },
+    {
+        "category": "pawn",
+        "color": "black",
+        "notation": "P",
+        "pId": 213,
+        "image": "../images/chess-pawn-black.svg",
+        "file": 5,
+        "rank": 1
+    },
+    {
+        "category": "pawn",
+        "color": "black",
+        "notation": "P",
+        "pId": 214,
+        "image": "../images/chess-pawn-black.svg",
+        "file": 6,
+        "rank": 1
+    },
+    {
+        "category": "pawn",
+        "color": "black",
+        "notation": "P",
+        "pId": 215,
+        "image": "../images/chess-pawn-black.svg",
+        "file": 7,
+        "rank": 1
+    }
 ]

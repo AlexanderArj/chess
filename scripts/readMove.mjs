@@ -5,3 +5,7 @@ export async function getMoves() {
     const moves = await response.json();
     return moves;
 }
+
+export function splitMoves(moves) { return moves.game.split(" ");}
+
+
